@@ -1,12 +1,6 @@
 name: Tests
 
-on:
-  push:
-    branches:
-      - $default-branch
-      # TODO: set develop as default
-      - develop
-  pull_request:
+on: push
 
 jobs:
   unit-test:
